@@ -1,0 +1,22 @@
+.lista-rodape{
+    border: 1px solid black;
+    margin: 20px auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    top: 45px;
+
+}
+
+.lista-rodape li {
+    display: inline;
+    margin-right: 20px ;
+    margin-top: 10px;
+}
+.lista-rodape li a img{
+    width: 50px;
+    border-radius: 5px;
+}
+

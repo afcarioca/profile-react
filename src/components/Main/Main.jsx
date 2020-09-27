@@ -1,9 +1,12 @@
 import React from "react";
+import "./Main.css";
 
 export default class Main extends React.Component{
     render(){
         return(
-            <main>Aqui está o conteúdo principal</main>
+            <main>
+                <p>Este é um pequeno teste de uma aplicação <i>React</i></p>
+            </main>
         );
     }
 }
