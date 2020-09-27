@@ -1,11 +1,17 @@
 import React from 'react';
 
+import Header from "../Header/Hearder.jsx"
+import Main from "../Main/Main.jsx"
+import Footer from "../Footer/Footer.jsx"
+
 export default class App extends React.Component{
   
   render(){
     return(
       <div>
-        <h1>Hello, World</h1>
+        <Header />
+         <Main />
+        <Footer />
       </div>
     );
   }
