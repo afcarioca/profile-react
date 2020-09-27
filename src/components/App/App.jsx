@@ -5,21 +5,19 @@ import Footer from "../Footer/Footer.jsx"
 import DocumentMeta from 'react-document-meta';
 
 
+
 export default class App extends React.Component{
   
   render(){
-    const meta = {
-      title: 'Exercício HTML',
-      
-    };
+    document.title = "Exemplo";
     return(
-      <DocumentMeta {...meta}>
+     
         <div>
           <Header />
           <Main />
           <Footer />
         </div>
-      </DocumentMeta>
+      
       
     );
   }
