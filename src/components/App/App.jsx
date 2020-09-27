@@ -2,7 +2,6 @@ import React from 'react';
 import Header from "../Header/Hearder.jsx"
 import Main from "../Main/Main.jsx"
 import Footer from "../Footer/Footer.jsx"
-import DocumentMeta from 'react-document-meta';
 
 
 
