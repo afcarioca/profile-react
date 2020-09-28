@@ -3,3 +3,15 @@
 ul li{
     margin-bottom:  15px;
 }
+
+ul li a {
+    text-decoration: none;
+    color:tomato;
+
+    font-weight: bolder;
+}
+
+ul li a:hover {
+    color:yellow;
+    transition: 1s;
+}

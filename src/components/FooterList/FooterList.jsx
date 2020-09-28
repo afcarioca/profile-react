@@ -9,19 +9,19 @@ export default class FooterList extends React.Component{
         return(
             <ul className="lista-rodape">
                 <li>
-                    <a href="https://www.linkedin.com/in/andrefreitas10/">
+                    <a href="https://www.linkedin.com/in/andrefreitas10/ " target="_blank">
                         <img className="" src={linkedin} />
                     </a>
                     
                 </li>
                 <li>
-                    <a href="https://github.com/afcarioca">
+                    <a href="https://github.com/afcarioca" target="_blank">
                         <img className="github" src={github} />
                     </a>
                     
                 </li>
                 <li>
-                    <a href="https://facebook.com/andre.gama.92">
+                    <a href="https://facebook.com/andre.gama.92" target="_blank">
                         <img className="" src={facebook} />
                     </a>
                     

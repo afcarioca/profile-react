@@ -3,7 +3,17 @@ main p{
     font-weight: bolder;
 }
 
-p i{
+p a{
     color: aliceblue;
+    text-decoration: none;
 
 }
+
+main .react{
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 100px;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+

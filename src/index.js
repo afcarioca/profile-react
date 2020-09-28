@@ -6,7 +6,7 @@ import App from './components/App/App.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title={"Profile"}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -3,14 +3,14 @@ import Header from "../Header/Header.jsx"
 import Main from "../Main/Main.jsx"
 import Footer from "../Footer/Footer.jsx"
 import Navigation from "../Navigation/Navigation.jsx"
-import styles from "./App.css";
+import "./App.css";
 
 
 
 export default class App extends React.Component{
   
   render(){
-    document.title = this.props.title;
+    document.title = "Profile";
     return(
         
         <div className="envolvente" >
