@@ -20,5 +20,13 @@ figure .foto-profile:hover{
     transition: 1s;
 }
 
+@media only screen and (max-width: 380px) {
+    figure .foto-profile {
+     width: 150px;
+     margin-top: 10px
+    }
+
+}
+
 
 
