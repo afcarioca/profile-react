@@ -5,8 +5,8 @@ export default class Header extends React.Component{
     render(){
         return(
             <header>
-                <figure>
-                    <img src={profile} alt="Profile" />
+                <figure itemScope itemtype ="http://schema.org/Person">
+                    <img className="foto-profile" src={profile} itemprop="image"  alt="foto de André" />
                 </figure>
              </header>
             

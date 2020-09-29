@@ -5,11 +5,13 @@ export default class List extends React.Component{
     render(){
         return(
             
-            <ul>
-                <li>Nome: André Freitas </li>
-                <li>Cidade: Braga</li>
-                <li>Email: afcarioca@hotmail.com</li>
-                <li><a href="http://www.fam.ulusiada.pt/">Universidade Lusíada em Vila Nova de Famalicão</a></li>
+            <ul itemScope itemtype ="http://schema.org/Person">
+                <li itemProp="name">André Freitas </li>
+                <li itemProp="address">Braga</li>
+                <li itemProp="email">afcarioca@hotmail.com</li>
+                <div itemProp="affiliation" itemScope itemtype ="http://schema.org/Organization">
+                    <li itemProp="name"><a href="http://www.fam.ulusiada.pt/" itemprop="url">Universidade Lusíada em Vila Nova de Famalicão</a></li>
+                </div>
             </ul>
         );
     }

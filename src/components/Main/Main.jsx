@@ -8,7 +8,7 @@ export default class Main extends React.Component{
             <main>
                 <p>Este é um pequeno teste de uma aplicação <a href="https://reactjs.org/">React</a></p>
                 <figure  className="react">
-                    <img src={react} />
+                    <img src={react} className="logo-react"/>
                 </figure>
             </main>
         );
