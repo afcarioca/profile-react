@@ -6,9 +6,9 @@ export default class Main extends React.Component{
     render(){
         return(
             <main>
-                <p>Este é um pequeno teste de uma aplicação <a href="https://reactjs.org/" itemRef="url">React</a></p>
+                <p>Este é um pequeno teste de uma aplicação <a href="https://reactjs.org/">React</a></p>
                 <figure  className="react">
-                    <img src={react} className="logo-react" itemProp="image"/>
+                    <img src={react} className="logo-react" alt="logo-react"/>
                 </figure>
             </main>
         );

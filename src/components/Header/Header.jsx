@@ -6,7 +6,7 @@ export default class Header extends React.Component{
         return(
             <header>
                 <figure itemScope itemType ="http://schema.org/Person">
-                    <img className="foto-profile" src={profile} itemProp="image"  alt="foto de André" />
+                    <img className="foto-profile" src={profile} alt="foto de André" />
                 </figure>
              </header>
             

@@ -9,9 +9,8 @@ export default class List extends React.Component{
                 <li itemProp="name">André Freitas </li>
                 <li itemProp="address">Braga</li>
                 <li itemProp="email">afcarioca@hotmail.com</li>
-                <div itemProp="affiliation" itemScope itemType ="http://schema.org/Organization">
-                    <li itemProp="name"><a href="http://www.fam.ulusiada.pt/" itemProp="url">Universidade Lusíada em Vila Nova de Famalicão</a></li>
-                </div>
+                <li itemProp="affiliation"><a href="http://www.fam.ulusiada.pt/" itemProp="url">Universidade Lusíada em Vila Nova de Famalicão</a></li>
+               
             </ul>
         );
     }
