@@ -8,7 +8,7 @@ export default class FooterList extends React.Component{
     render(){
         return(
             <ul className="lista-rodape" itemProp="mainEntity" itemScope itemType="http://schema.org/Person" >
-                <li itemProp="mainEntityOfPage">
+                <li className="lista-linkedin" itemProp="mainEntityOfPage">
                     <a  href="https://www.linkedin.com/in/andrefreitas10/ " target="_blank">
                         <img className="linkedin" src={linkedin} itemProp="image" alt="logo-linkedin"/>
                     </a>
@@ -22,7 +22,7 @@ export default class FooterList extends React.Component{
                 </li>
                 <li itemProp="mainEntityOfPage">
                     <a href="https://facebook.com/andre.gama.92" target="_blank" >
-                        <img className="" src={facebook} itemProp="image" alt="logo-facebook"/>
+                        <img className="facebook" src={facebook} itemProp="image" alt="logo-facebook"/>
                     </a>
                     
                 </li>
