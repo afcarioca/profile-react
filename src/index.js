@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import "./reset.css";
 import './index.css';
 import Home from './components/Home/Home.jsx';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Home exact  path="/profile"/>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+      <Route exact  path="/" component={Home}/>
+
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
