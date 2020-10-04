@@ -8,6 +8,7 @@
     background-color: white;
     position: relative;
     top: 45px;
+    margin-bottom: 10px;
 
 }
 
@@ -30,12 +31,19 @@
   
 }
 
+@media only screen and(max-width: 370px){
+       
+  .lista-rodape{
+      margin-bottom: 20px;
+  }
+}
+
 @media only screen and (max-width: 340px) {
  
   
     .linkedin, .facebook{
         display: none;
     }
-  }
+}
 
 
